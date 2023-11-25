@@ -1,14 +1,12 @@
-import React from 'react';
-import Navbar from "./Navbar.js";
-import logMovies from "./Body.js";
-import "bootstrap/dist/css/bootstrap.css";
-const page=()=> {
-  return (
-    <div>
-      <Navbar />
-      <logMovies/>
-    </div>
+import Link from "next/link";
+import"bootstrap/dist/css/bootstrap.css";
+
+import NavbarCompont from "./NavbarCompont";
+const page=()=>{
+  return(
+    <>
+      <NavbarCompont/>
+    </>
   )
 }
-
-export default page
+export default page;
