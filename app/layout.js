@@ -1,6 +1,14 @@
 import { Inter } from 'next/font/google'
+<<<<<<< HEAD
 // import './globals.css'
 import"bootstrap/dist/css/bootstrap.css";
+=======
+import './globals.css'
+import NavbarCompont1 from './NavbarCompont1'
+
+
+
+>>>>>>> cdb6c60 (column is done)
 
 const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
@@ -12,8 +20,19 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+<<<<<<< HEAD
         {children}
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+=======
+        <NavbarCompont1/>
+        
+        
+
+          
+        {children}
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+>>>>>>> cdb6c60 (column is done)
       </body>
     </html>
   )
