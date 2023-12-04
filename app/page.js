@@ -1,11 +1,12 @@
-import Link from "next/link";
-import NavbarCompont from "./NavbarCompont";
-import Body from "./Body";
+import Navbar from "@/Components/Navbar";
+import CarouselComponent from "@/Components/CarouselComponent";
+import Card from "@/Components/Card";
 const page=()=>{
   return(
-    <>
-      <NavbarCompont/>
-      <Body/>
+    <>      
+      <Navbar/>
+      <CarouselComponent/>
+      <Card/>
     </>
   )
 }
