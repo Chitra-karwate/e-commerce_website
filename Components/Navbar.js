@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -20,7 +21,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mb-2 mb-lg-0 me-5">
               <li className="nav-item">
-                <a className="nav-link active fs-5" aria-current="page" href="home">
+                <a className="nav-link active fs-5" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -40,13 +41,12 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="d-flex align-items-center">
-            <img
-              src="https://static.vecteezy.com/system/resources/previews/019/787/018/non_2x/shopping-cart-icon-shopping-basket-on-transparent-background-free-png.png"
-              
-              alt=""
-              style={{ height: "50px", marginRight: "27px" }}
-            />
+          <div className="d-flex align-items-center">          
+          <a href='./card'>
+            <img src="https://static.vecteezy.com/system/resources/previews/019/787/018/non_2x/shopping-cart-icon-shopping-basket-on-transparent-background-free-png.png" alt=""
+            style={{ height: "50px", marginRight: "27px" }}
+            ></img>
+          </a>
           </div>
         </div>
       </nav>
