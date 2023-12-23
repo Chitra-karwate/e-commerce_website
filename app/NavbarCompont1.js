@@ -10,9 +10,9 @@ const NavbarCompont1=()=>{
                                 Home
                             </a>
                             <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"  />
-                            <div className= "col-6">
+                            <div className= "col-6 text-black">
                                 <form className="d-flex" role="search">
-                                    <input className="form-control mr-sm-2 text-black  bg-white" type="search" placeholder="Search for Products,Brands and More" aria-label="Search"  style={{ Color: 'black' }}/>
+                                    <input className="form-control mr-sm-2 bg-white text-black" type="search" placeholder="Search for Products,Brands and More" />
                                     <button className="btn btn-outline-success" type="submit">Search</button>
                                 </form>
                             </div>

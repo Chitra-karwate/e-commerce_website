@@ -5,7 +5,7 @@ const Product_list = () => {
   const [photos, setPhotos] = useState([]);
 
   useEffect(() => {
-    fetch('https://api.pujakaitem.com/api/products')
+    fetch('https://fakestoreapi.com/products')
       .then((res) => res.json())
       .then((data) => {
         setPhotos(data);
@@ -22,12 +22,12 @@ const Product_list = () => {
       <div className="col-1 p-2 text-center"><b>Home&Furniture</b></div>
 
       <div className="container-fluid">
-        <div className="row mx-auto border mx-2" style={{ width: "1500px" }}>
-          <div className="col-3 border" style={{ height: "1500px" }}>
+        <div className="row mx-auto  mx-2" style={{ width: "1500px" }}>
+          <div className="col-3 border">
             
           </div>
-          <div className="col border" style={{ height: "289px" }}>
-            <a className="nav-link" href="/Product_list/Product_details">
+          <div className="col border">
+            <a className="nav-link" href="/Product_list/product_details">
               {photos.map((photo) => (
                 <div key={photo.id} className="row">
                   <div className="col-3 border">

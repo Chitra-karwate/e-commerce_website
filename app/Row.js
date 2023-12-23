@@ -73,7 +73,7 @@ const Row = () => {
           >
             <h5 className="p-4">Best Moblie</h5>
             <h5 className="nav justify-content-end p-3">
-              <Link href="/Product_list">
+              <Link href="Product_list/">
                 <button>View All</button>
               </Link>
             </h5>
