@@ -3,7 +3,11 @@ import Link from "next/link";
 import"bootstrap/dist/css/bootstrap.css";
 import Carousel from "./Carousel";
 import Row from "./Row";
-import Footer from "./footer";
+// import CategoryList from "./CategoryList";
+// import Category from "./category";
+
+
+
 
 
 const Page=()=>{
@@ -13,7 +17,11 @@ const Page=()=>{
 
       <Carousel/>
       <Row/>
-      <Footer/>
+      {/* <CategoryList/> */}
+      {/* <Category/> */}
+      
+     
+     
     
       
 

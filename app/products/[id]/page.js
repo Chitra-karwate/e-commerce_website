@@ -1,4 +1,5 @@
 
+
 "use client";
 import { useEffect, useState } from "react";
 
@@ -31,7 +32,7 @@ const ProductDetail = (props) => {
               className="img-fluid rounded-start " 
               alt={product.title}
               width="100%"
-              
+
             />
           </div>
           <div className="col-md-8 border">
@@ -40,7 +41,7 @@ const ProductDetail = (props) => {
               <h4 className="p-2 card-title">{product.title}</h4>
               <h5 className="p-2">₹{product.price}</h5>
               <h5 className="p-2 card-text">{product.description}</h5>
-              
+
             </div>
           </div>
         </div>

@@ -52,9 +52,6 @@ const Footer=()=>{
                         <div className="text-white small"> Karnataka, India</div>
 
 
-
-
-
                     </div>
                     <div className="col p-5 ">
                         <p className="text-secondary small" >Registered Office Address:</p>
