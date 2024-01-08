@@ -18,8 +18,8 @@ const  ProductList = () => {
         <div className="row">
           {items.map((item) => {
             return (
-              <div key={item.id} className="col-3">
-                <Link href={`/products/${item.id}`}>
+              <div key={item.category} className="col-3">
+                <Link href={`/products/${item.category}`}>
                   <div className="card card-block p-2">
                     <img
                       src={item.image}
@@ -43,4 +43,3 @@ const  ProductList = () => {
 };
 
 export default ProductList ;
-
