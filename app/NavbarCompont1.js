@@ -5,11 +5,12 @@ const NavbarCompont1=()=>{
             
                 <div className="container-fluid">
                     <div style={{ backgroundColor:"white "}}>
-                        <nav className="navbar mb-2 " data-bs-theme="dark">
+                        <nav className="navbar " data-bs-theme="dark">
+                            <img className=""src="logo.png"  />
                             <a className="navbar-brand text-black"href="/">
                                 Home
                             </a>
-                            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"  />
+                            
                             <div className= "col-6 text-black">
                                 <form className="d-flex" role="search">
                                     <input className="form-control mr-sm-2 bg-white text-black" type="search" placeholder="Search for Products,Brands and More" />

@@ -7,6 +7,7 @@ const Row = () => {
       { id: 1, 
         imageUrl: "realme.webp",
         title:"Realme Moblie",
+        
 
     },
       { id: 2, imageUrl: "apple.webp",
@@ -72,14 +73,16 @@ const Row = () => {
             style={{ width: "1603px", height: "538px",  }}
           >
             <h5 className="p-4">Best Moblie</h5>
+
             <h5 className="nav justify-content-end p-3">
-              <Link href="Product_list/">
+              <Link href="/products">
                 <button>View All</button>
               </Link>
             </h5>
+
             {row.map((item) => (
               <div key={item.id} className="col-2.4 card m-3 border"style={{ width: "18rem", height: "23rem" }}>
-                 <Link href="Product_list/product_details">
+                 <Link href="products">
                   <img className="card-img-top p-3 text-center"src={item.imageUrl}alt={`Product ${item.id}`}/>
                 </Link>
                 <div>

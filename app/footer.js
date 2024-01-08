@@ -2,9 +2,18 @@ const Footer=()=>{
     return(
         <>  
             
-                <div className="container-fluid bg-dark border"  style={{ fontFamily:"inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif"}}>
-                        <div className="row  ml-5 " style={{height:"320px"}}>
-                            <div className="col-2 p-5 ">
+                <div className="container-fluid border">
+                        <div className="row  ml-5 " style={{height:"320px",backgroundColor:"#3722D3"}}>
+                            <div className="col-3 mx-auto">
+
+                                <img className="p-4"src="logo1.png" style={{width:"400px"}}/>
+                                    <div className="col-2 mx-auto">
+                                        <img className="text-alien" src="logo2.png"/>
+                                    </div>    
+                            </div> 
+                            
+
+                            {/* <div className="col-2 p-5 ">
                                 <p className=" text-secondary small ">ABOUT</p>
                                 <div className=" text-white smal font-weight-bold">Contact Us</div>
                                 <div className="text-white small font-weight-bold">Careers</div>
@@ -66,10 +75,10 @@ const Footer=()=>{
                                 <div className="text-white small"> Karnataka, India  </div>
                                 <div className="text-white small">  CIN : U51109KA2012PTC066107 </div>
                             </div>
-                            
+                             */}
                         </div>
-                        <hr class="m-6" style={{borderColor: "#ccc;"}}/>
-                        <div className="row bg-light"style={{height:"70;"}}></div>
+                        {/* <hr class="m-6" style={{borderColor: "#ccc;"}}/>
+                        <div className="row bg-light"style={{height:"70;"}}></div> */}
 
                     </div>
               

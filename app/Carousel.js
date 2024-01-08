@@ -15,12 +15,12 @@ const Carousel=()=>{
                                     <p>Grocery</p>
                             </Link>
                         </div>
-                        <div className="col-1 m-3">
+                        {/* <div className="col-1 m-3">
                             <Link className="nav-link text-black" aria-current="page" href="/Electronic">
                                 <img src="https://rukminim1.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100"/>
                                 <p>Electronic</p>
                             </Link>
-                        </div>    
+                        </div>     */}
                     
                         <div className="col-1 m-3">
                             <Link className=" nav-link text-black" href="/Moblie">
