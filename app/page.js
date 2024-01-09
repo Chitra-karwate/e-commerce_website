@@ -17,16 +17,6 @@ const Page=()=>{
 
       <Carousel/>
       <Row/>
-      {/* <CategoryList/> */}
-      {/* <Category/> */}
-      
-     
-     
-    
-      
-
-
-     
   
     </>
   );
