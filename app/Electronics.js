@@ -36,9 +36,11 @@ const ElectronicsPage = () => {
           })}
         </div>
         <div className="d-flex justify-content-end">
-          <button type="button" className="btn btn-secondary my-5">
-            Explore &#8594;
-          </button>
+          <a href="/explore">
+            <button type="button" className="btn btn-secondary my-1">
+              Explore &#8594;
+            </button>
+          </a>
         </div>{" "}
       </div>
     </>

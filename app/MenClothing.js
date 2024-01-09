@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-const MenClothingPage= () => {
+const MenClothingPage = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const MenClothingPage= () => {
       <div className="container-fluid px-4">
         <div className="row g-3 ">
           <h1>Men's clothing</h1>
-          {MenClothProducts .map((item) => {
+          {MenClothProducts.map((item) => {
             return (
               <div key={item.category} className="col-3">
                 <div className="card card-block p-3">
@@ -36,9 +36,11 @@ const MenClothingPage= () => {
           })}
         </div>
         <div className="d-flex justify-content-end">
-          <button type="button" className="btn btn-secondary my-5">
-            Explore &#8594;
-          </button>
+          <a href="/explore">
+            <button type="button" className="btn btn-secondary my-1">
+              Explore &#8594;
+            </button>
+          </a>
         </div>{" "}
       </div>
     </>
