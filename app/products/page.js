@@ -46,19 +46,3 @@ const Product_list = () => {
 }
 export default Product_list;  
 
-// items.map((item) => (
-//   <div key={item.id} className="col-2.4 card m-3 border"style={{ width: "18rem", height: "23rem" }}>
-    
-//     <div className="row mx-auto bg-white border" style={{ width: "1000px" }}>
-//       <div className="col-3 m-3 border">
-//         <Link href={`/products/${item.id}`}>
-//           <img className="p-3" src={item.image} alt="" style={{ width: "260px", height: "289px" }} />
-//         </Link>
-//       </div>
-//       <div className="col">
-//         <p>{item.title}</p>
-//         <p>₹{item.price}</p>
-//       </div>
-//     </div>
-//   </div>
-// ))} */}
