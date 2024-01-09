@@ -6,7 +6,7 @@ const NavbarCompont1=()=>{
                 <div className="container-fluid">
                     <div style={{ backgroundColor:"white "}}>
                         <nav className="navbar " data-bs-theme="dark">
-                            <img className=""src="logo.png"  />
+                            <img className=""src=""  />
                             <a className="navbar-brand text-black"href="/">
                                 Home
                             </a>

@@ -60,12 +60,6 @@ const Carousel=()=>{
 
 
 
-
-
-
-
-
-
             <div className="container-fluid text-center">
                 <div className="row justify-content-center" >
                     <div id="carouselExampleIndicators" className="carousel slide mt-3 mb-3 " data-bs-ride="carousel" data-interval="2000">
