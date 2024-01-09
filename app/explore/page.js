@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
-function page() {
+function Explorepage() {
   return (
-    <div>
-        hii
-    </div>
-  )
+    <>
+      <div class="container-fluid p-3">
+        <div class="row" style={{height:"300px"}}>
+          <div class="col-4 border">col1</div>
+          <div class="col-8 border">col2</div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default page
+export default Explorepage;

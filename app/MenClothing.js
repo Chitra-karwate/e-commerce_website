@@ -48,3 +48,6 @@ const MenClothingPage = () => {
 };
 
 export default MenClothingPage;
+
+
+MenClothingPage.js

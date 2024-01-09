@@ -1,7 +1,6 @@
 const Footer=()=>{
     return(
         <>  
-            
         <div className="container-fluid bg-dark border"  style={{ fontFamily:"inter_semi_bold,fallback-inter_semi_bold,Arial,sans-serif"}}>
                 <div className="row  ml-5 " style={{height:"320px"}}>
                     <div className="col-2 p-5 ">
@@ -70,11 +69,7 @@ const Footer=()=>{
 
             </div>
               
-        </>               
-              
-                
-
-            
+        </>                       
         
     )
 }
