@@ -1,1 +1,5 @@
-@import"bootstrap/dist/css/bootstrap.css";
+/* @import"bootstrap/dist/css/bootstrap.css"; */
+.images {
+    height: 300px;
+    width: 100%;
+}
