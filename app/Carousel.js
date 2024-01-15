@@ -1,4 +1,6 @@
 import Link from "next/link";
+
+
 const Carousel=()=>{
     return(
         <>
@@ -53,10 +55,49 @@ const Carousel=()=>{
                 </div>
             </div>          
 
+
+
+
+
+            <div className="container-fluid text-center">
+                <div className="row justify-content-center" >
+                    <div id="carouselExampleIndicators" className="carousel slide mt-3 mb-3 " data-bs-ride="carousel" data-interval="2000">
+                        <div className="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        {/* <div className="col-1 m-3">
+                            <Link className="nav-link text-black" aria-current="page" href="/Electronic">
+                                <img src="https://rukminim1.flixcart.com/flap/64/64/image/69c6589653afdb9a.png?q=100"/>
+                                <p>Electronic</p>
+                            </Link>
+                        </div>     */}
+                    
+                        <div className="col-1 m-3">
+                            <Link className=" nav-link text-black" href="/Moblie">
+                                <img src="https://rukminim1.flixcart.com/flap/64/64/image/22fddf3c7da4c4f4.png?q=100"/>
+                                    <p>Moblie</p>
+                            </Link>
+                        </div>  
+                        <div className=" col-1 m-3">  
+                            <Link className="nav-link text-black" href="/Fastion">
+                                    <img src="https://rukminim1.flixcart.com/fk-p-flap/64/64/image/0d75b34f7d8fbcb3.png?q=100"/>
+                                        <p>Fastion</p>
+                            </Link>
+                        </div>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>  
+                </div> 
+            </div>    
         </>
     )
 }
 export default Carousel;
-
-
-

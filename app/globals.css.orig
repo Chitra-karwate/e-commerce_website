@@ -1,0 +1,42 @@
+
+@import"bootstrap/dist/css/bootstrap.css";
+
+.cart-header{
+    width:1280px;
+    height:143px;
+    background:#3F0DA9;
+    color:#FBE9A9;
+}
+
+.cart-box{
+    height:63px;
+    width:770px;
+
+}
+
+.cart-row{
+    height:750px;
+    width:1180px;
+}
+
+.cart-inside-box{
+    height:199px;
+
+}
+.price-box{
+    height:20px;
+    width:60px;
+}
+
+.button-row{
+    height:67px;
+    width:1510px;
+}
+
+.button{
+    width:379px;
+    height:67px;
+    background:#3722D3;
+}
+
+
