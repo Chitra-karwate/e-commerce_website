@@ -6,12 +6,18 @@ const HomePage = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
-      .then((res) => res.json())
-      .then((data) => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://fakestoreapi.com/products');
+        const data = await response.json();
         setItems(data);
-      });
-  }, []);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []); 
   
   const categories = Array.from(
     new Set(items.map((product) => product.category))
