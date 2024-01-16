@@ -30,7 +30,7 @@
     width:1510px;
 }
 
-.button{
+.button1{
     width:379px;
     height:67px;
     background:#3722D3;

@@ -1,6 +1,6 @@
 
 import Carousel from "./Carousel";
-import HomePage from "./HomePage"
+import HomePage from "./HomePage";
 const Page=()=>{
   
   return(
