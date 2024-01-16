@@ -1,3 +1,6 @@
+import Link from "next/link";
+import "./cart.css";
+
 const Cart=()=>{
     return(
         <>
@@ -19,9 +22,11 @@ const Cart=()=>{
                         <div class="col p-3 offset-md-10 border"></div>
                     </div>
                 </div>
-                <div className="row button-row mb-5 mt-4 justify-content-end">
-                    <button className="btn-dark  button" type="button"><h2>Proceed to By</h2></button>
-                </div>
+                 <Link  href="/Form">
+                    <div className="row button-row mb-5 mt-4 justify-content-end">
+                        <button className="btn-dark  button" type="button"><h2>Proceed to By</h2></button>
+                    </div>
+                </Link>
             </div>
         </>
     )

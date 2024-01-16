@@ -1,33 +1,54 @@
 import Link from "next/link";
-const Navbar=()=>{
-    return(
+import "./Navbar.css";
+const Navbar = () => {
+    return (
         <>
             <div className="container-fluid">
-                <div style={{ backgroundColor:"white "}}>
-                    <nav className="navbar " data-bs-theme="dark">
-                        <img className=""src=""  />
-                        <a className="navbar-brand text-black"href="/">
-                            Home
-                        </a>
-                        
-                        <div className= "col-6 text-black">
-                            <form className="d-flex" role="search">
-                                <input className="form-control mr-sm-2 bg-white text-black" type="search" placeholder="Search for Products,Brands and More" />
-                                <button className="btn btn-outline-success" type="submit">Search</button>
-                            </form>
+                    <nav className="navbar border-dark" data-bs-theme="dark">
+                        <div className="row">
+                            <div className="col">
+                                <img src="logo.png" />
+                            </div>
+                            <div className="col mx-2">
+                                <img src="img1.png"/>
+                            </div>
+                            <div className="col mx-2">
+                                <img src="img2.png"/>
+                            </div>
+                            <div className="col mx-2">
+                                <img src="img3.png"/>
+                            </div>
+                            <div className="col mx-2">
+                                <img src="img4.png"/>
+                            </div>
+                                
                         </div>
-                        <Link className="navbar-brand" href="/Cart">
-                            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" alt="cart" className="bg-img-none background-image: none;
-        background: none; "style={{width:"40px"}} />
-                            <b>Cart</b>
-                        </Link>            
-                                            
+                        <div className="row search-box">
+                            <div className="col text-black">
+                                <form className="d-flex" role="search">
+                                    <input className="form-control mr-sm-2 bg-white text-black" type="search" />
+                                    <button className="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                        <Link className="navbar-brand text-primary" href="/Cart">
+                            <div className="row">
+                                <div className="col">
+                                    <img src="cart.svg"/>
+                                </div>
+                                <div className="col">
+                                    <p>My Cart</p>
+                                </div>
+                            </div>
+
+                        </Link>
+
                     </nav>
-                </div>    
+                
             </div>
-                   
+
         </>
-        
+
     )
 }
 export default Navbar; 

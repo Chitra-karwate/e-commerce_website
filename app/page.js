@@ -6,7 +6,7 @@ const Page=()=>{
   return(
     <>
       <Carousel/>  
-      <HomePage/>1
+      <HomePage/>
     </>
   );
 };
