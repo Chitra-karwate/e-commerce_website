@@ -23,10 +23,10 @@ const HomePage = () => {
         {categories.map((category) => {
           const categoryItems = items.filter(
             (product) => product.category === category
-          ).slice(0,4)
+          );
 
           return (
-            <div key={category} className="row ">
+            <div key={category} className="row border">
               {categoryItems.map((item,index) => (
                 <div key={index} className="col-3">
                   <div className="card card-block p-3">
@@ -39,7 +39,7 @@ const HomePage = () => {
                 </div>
               ))}
               <div className="d-flex justify-content-end">
-                  <a href="/explore">
+                  <a>
                     <button type="button" className="btn btn-secondary my-1">
                       Explore &#8594;
                     </button>
