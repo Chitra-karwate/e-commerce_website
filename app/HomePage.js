@@ -39,7 +39,7 @@ const HomePage = () => {
                 </div>
               ))}
               <div className="d-flex justify-content-end">
-                  <a>
+                  <a href="/explore">
                     <button type="button" className="btn btn-secondary my-1">
                       Explore &#8594;
                     </button>

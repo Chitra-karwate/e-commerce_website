@@ -66,11 +66,15 @@
 }  
 .row3{
     width:1703px;
-    height:800px;
+    height:1475px;
  }
  .row4{
     width: 1341px; 
     height: 413px;
+}
+.row5{
+    width: 1426px;
+    height: 1455px;
 }
 .column{   
      height: 700px;
@@ -90,3 +94,25 @@
 .box2{
     width: 82px;
 }
+.row6{
+    width:1703px;
+    height: 70px;
+    color: #000; 
+/* 
+    font-family: Inika;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    width: 1593px; */
+
+}
+.column5{
+    width:260px;
+}
+.column6{
+    width: 1506px;
+    height: 54px;
+    flex-shrink: 0;
+    
+}    
