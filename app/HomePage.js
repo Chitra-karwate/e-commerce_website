@@ -29,7 +29,7 @@ const HomePage = () => {
         {categories.map((category) => {
           const categoryItems = items.filter(
             (product) => product.category === category
-          );
+          ).slice(0,4)
 
           return (
             <div key={category} className="row border">
@@ -45,7 +45,7 @@ const HomePage = () => {
                 </div>
               ))}
               <div className="d-flex justify-content-end">
-                  <a>
+                  <a href="/explore">
                     <button type="button" className="btn btn-secondary my-1">
                       Explore &#8594;
                     </button>
