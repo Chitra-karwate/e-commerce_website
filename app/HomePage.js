@@ -33,7 +33,8 @@ const HomePage = () => {
 
           return (
             <div key={category} className="row border">
-              {categoryItems.map((item,index) => (
+              <h2>{category}</h2>
+              {categoryItems.map((item,index) =>(
                 <div key={index} className="col-3">
                   <div className="card card-block p-3">
                     <img src={item.image} alt="" className="images" />
