@@ -1,0 +1,64 @@
+
+.column3{
+    width: 183px; 
+    height: 209px;
+}    
+  
+.row1{
+    width:1703px; 
+    height:114px;
+    background-color: #3722D3;
+    color: #FBE9A9;
+}
+.row2{
+    width:1703px; 
+    height:100px;
+}  
+.row3{
+    width:1703px;
+    height:1475px;
+ }
+ .row4{
+    width: 1341px; 
+    height: 413px;
+}
+.row5{
+    width: 1426px;
+    height: 1455px;
+}
+.column{   
+     height: 700px;
+}
+.column1{   
+    height: 40px;
+}
+.column2{
+    width:100px;
+    height: 150px;
+}
+.column4{
+    width: 18rem; 
+    height: 23rem;
+
+}
+.box2{
+    width: 82px;
+}
+.row6{
+    width:1703px;
+    height: 70px;
+    color: #000; 
+}
+.column5{
+    width:260px;
+}
+.column6{
+    width: 1506px;
+    height: 54px;
+    flex-shrink: 0;
+    
+}    
+.cart1{
+    width: 25rem ;
+    height:23rem;
+}
