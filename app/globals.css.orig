@@ -1,33 +1,4 @@
 <<<<<<< HEAD
-=======
- @import"bootstrap/dist/css/bootstrap.css"; 
-.cart-header{
-    width:1280px;
-    height:143px;
-    background:#3F0DA9;
-    color:#FBE9A9;
-}
-
-.cart-box{
-    height:63px;
-    width:770px;
-
-}
-
-.cart-row{
-    height:750px;
-    width:1180px;
-}
-
-.cart-inside-box{
-    height:199px;
-
-}
-.price-box{
-    height:20px;
-    width:60px;
-}
->>>>>>> 9cf3253c4cda13e7305ae8cac915d3f46e97a09d
 
 @import"bootstrap/dist/css/bootstrap.css";
 .images{
@@ -36,10 +7,11 @@
 }
 
 
-<<<<<<< HEAD
 =======
+@import"bootstrap/dist/css/bootstrap.css";
+
+.images{
+    width: 100%;
+    height: 350px;
 }
-.box2{
-    width: 82px;
-}
->>>>>>> 9cf3253c4cda13e7305ae8cac915d3f46e97a09d
+>>>>>>> a6f6c3fd6885d350b3b869b31bf573e1daf9bfb4

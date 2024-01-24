@@ -1,4 +1,5 @@
 "use client";
+import "./home_page.css"
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -32,7 +33,7 @@ const HomePage = () => {
           ).slice(0,4)
 
           return (
-            <div key={category} className="row border">
+            <div key={category} className="row mx-auto box">
               {categoryItems.map((item,index) => (
                 <div key={index} className="col-3">
                   <div className="card card-block p-3">
