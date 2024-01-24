@@ -1,17 +1,18 @@
+import Link from 'next/link';
 import "./Form.css";
 const Form=()=>{
     return(
         <>
             <div className="container-fluid  ">
                 <div className="row mx-auto form-header">
-                    <div className="row cart-box mt-5">
-                        <div className="col-8 text-center"><h3>ADD DELIVERY DETAILS</h3></div>
+                    <div className="row  mt-5">
+                        <div className="col-7 text-center"><h3>ADD DELIVERY DETAILS</h3></div>
                         <div className="col-6 text-center"><p>Add the details below</p></div>
                     </div>
                 </div>
                 
                 <div className=" mx-auto cart-body">
-                    <div className="row  mx-auto  justify-content-center email-box ">
+                    <div className="row  mx-auto  email-box ">
                         
                             <label><h5>Your Email Address</h5></label>
                         
@@ -21,13 +22,13 @@ const Form=()=>{
                         <input type="text" className=" col-12"/>
                     </div>
                     
-                    <div className="row mx-auto justify-content-center mt-5 email-box">
+                    <div className="row mx-auto mt-5 email-box">
                          <label><h5>Name of the Receive</h5></label>
                          <div>All details of purchase,also tracking details will be send here.</div>
                          <input type="text" className=" col-12"/>
                         
                     </div>
-                    <div className="row mx-auto justify-content-center mt-5 email-box">
+                    <div className="row mx-auto  mt-5 email-box">
                         <label><h5>Contact Number of the Receiver</h5></label>
                         <div>The delivery will be in this Name</div>
                         <input type="text" className=" col-12"/>
@@ -42,9 +43,11 @@ const Form=()=>{
                         <div className="pt-4">Town/City</div>
                         <input type="text" className=" col-12"/>
                     </div>
-                    <div className="row button-row mt-5 ">
-                        <button className="btn-dark button1" type="button"><h3>Complete Purchase</h3></button>
-                    </div>         
+                    <Link  href="/order">
+                        <div className="row button-row mt-5 ">
+                            <button className="btn-dark button1" type="button"><h3>Complete Purchase</h3></button>
+                        </div>
+                    </Link>        
                         
                 </div>
             </div>

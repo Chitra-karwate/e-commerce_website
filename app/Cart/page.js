@@ -19,6 +19,16 @@ const Cart=()=>{
                             <div class="col-2 border">One of two columns</div>
                             <div class="col-md-4 price-box offset-md-7 border"></div>
                         </div>
+                        <div class="row cart-inside-box border">
+                            <div class="col-2 mx-3  border">One of two columns</div>
+                            <div class="col-2 border">One of two columns</div>
+                            <div class="col-md-4 price-box offset-md-7 border"></div>
+                        </div>
+                        <div class="row cart-inside-box border">
+                            <div class="col-2 mx-3  border">One of two columns</div>
+                            <div class="col-2 border">One of two columns</div>
+                            <div class="col-md-4 price-box offset-md-7 border"></div>
+                        </div>
                         <div class="col p-3 offset-md-10 border"></div>
                     </div>
                 </div>

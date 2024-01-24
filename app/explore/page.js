@@ -14,7 +14,6 @@ const Explore=()=>{
                 Sort By:Name A -- Z 
             </div>
             
-            
           </div>    
          
           <div className="row mx-auto mt-3 row3 ">

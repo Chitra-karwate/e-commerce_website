@@ -1,15 +1,14 @@
+import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid border">
+      <div className="container-fluid ">
         <div
-          className="row  ml-5 "
-          style={{ height: "320px", backgroundColor: "#3722D3" }}
-        >
-          <div className="col-3 mx-auto">
-            <img className="p-4" src="logo1.png" style={{ width: "400px" }} />
+          className="row mx-auto ml-5 footer-box">
+          <div className="col-lg-3 col-md-6 col-sm-12 mx-auto border border-dark">
+            <img className="p-4 logo border border-dark" src="logo1.png" />
             <div className="col-2 mx-auto">
-              <img className="text-alien" src="logo2.png" />
+              <img className="text-alien border" src="logo2.png" />
             </div>
           </div>
         </div>

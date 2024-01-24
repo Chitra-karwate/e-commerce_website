@@ -1,0 +1,33 @@
+.box{
+    width:470px;
+    height:313px;
+    margin-top:80px;
+}
+
+.box1{
+    height:110px;
+    
+}
+
+.inside-box{
+    height:110px;
+    width:110px;
+}
+
+.text{
+    height:69px;
+    font-style:inika;
+}
+.box2{
+    margin-top:70px;
+    height:67px;
+    width:1780px;
+     margin-bottom:200px;
+}
+.button{
+    width:400px;
+    height:67px;
+    background-color:#3722D3;
+
+
+}
