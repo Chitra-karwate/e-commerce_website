@@ -42,17 +42,16 @@ const Carousel=()=>{
                                         </div>
                                         <div className="col-2 image2">
                                             <img className=""src="women.png"/>
-                                        </div> 
-                                        <img src="Icon.png"/>                          
+                                        </div>                           
                                     </div>    
                                 </div>
                             </div>
-                            <div className="carousel-item">
+                            {/* <div className="carousel-item">
                                 <img className="rounded-3" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/9f2d8a698cd97710.jpg?q=20"  alt="secondimage" />
                             </div>
                             <div className="carousel-item">
                                 <img  className="rounded-3"src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/1575923f761f2f2a.jpg?q=20"  alt="thirdimage"/>
-                            </div>
+                            </div> */}
                         </div>
                        
                     </div>  
