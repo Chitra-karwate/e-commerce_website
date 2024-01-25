@@ -1,4 +1,5 @@
 import Link from "next/link";
+<<<<<<< HEAD
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -13,14 +14,14 @@ const Navbar = () => {
                         <div className="col-12 col-md-auto mx-2">
                             <img src="img1.png" />
                         </div>
-                        <div className="col-12 col-md-auto ">
-                            <div className="row ">
-                                <div className="col-2 col-md-auto">
+                        <div className="col-12 col-md">
+                            <div className="row">
+                                <div className="col-6 col-md-auto">
                                     <a className="home" href="/">
                                         Home
                                     </a>
                                 </div>
-                                <div className="col-2 col-md-auto ">
+                                <div className="col-6 col-md-auto">
                                     <img src="Dropdown.png" />
                                 </div>
                             </div>
@@ -28,21 +29,20 @@ const Navbar = () => {
                         <div className="col-12 col-md-auto mx-2">
                             <img src="img3.png" />
                         </div>
-                        <div className="col-12 col-md-auto mx-2 ">
+                        <div className="col-12 col-md-auto mx-2">
                             <img src="img4.png" />
                         </div>
-                        <div className="col text-black   search-box">
+                    </div>
+                    <div className="row search-box">
+                        <div className="col text-black">
                             <form className="d-flex" role="search">
                                 <input className="form-control mr-sm-2 bg-white text-black" type="search" />
                                 <button className="btn btn-outline-success" type="submit">Search</button>
                             </form>
                         </div>
-                    
                     </div>
-                   
-                    
                     <Link className="navbar-brand text-primary" href="/Cart">
-                        <div className="row ">
+                        <div className="row">
                             <div className="col">
                                 <img src="cart.svg" />
                             </div>
@@ -59,3 +59,45 @@ const Navbar = () => {
 
 export default Navbar;
 
+=======
+const Navbar = () => {
+  return (
+    <>
+      <div className="container-fluid">
+        <div style={{ backgroundColor: "white " }}>
+          <nav className="navbar " data-bs-theme="dark">
+            <img className="" src="logo.png" />
+            <a className="navbar-brand text-black" href="/">
+              Home
+            </a>
+
+            <div className="col-6 text-black">
+              <form className="d-flex" role="search">
+                <input
+                  className="form-control mr-sm-2 bg-white text-black"
+                  type="search"
+                  placeholder="Search for Products,Brands and More"
+                />
+                <button className="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+            <Link className="navbar-brand" href="/Cart">
+              <img
+                src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg"
+                alt="cart"
+                className="bg-img-none background-image: none;
+                             background: none; "
+                style={{ width: "40px" }}
+              />
+              <b>Cart</b>
+            </Link>
+          </nav>
+        </div>
+      </div>
+    </>
+  );
+};
+export default Navbar;
+>>>>>>> 9cf3253c4cda13e7305ae8cac915d3f46e97a09d

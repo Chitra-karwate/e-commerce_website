@@ -16,9 +16,6 @@ const Explore=()=>{
               <img className="p-3"src="logo4.png "/>  
             </div>
             
-           
-              
-            
           </div>    
          
           <div className="row mx-auto mt-3 row3 ">
