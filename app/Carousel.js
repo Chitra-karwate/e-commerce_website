@@ -42,8 +42,7 @@ const Carousel=()=>{
                                         </div>
                                         <div className="col-2 image2">
                                             <img className=""src="women.png"/>
-                                        </div> 
-                                        <img src="Icon.png"/>                          
+                                        </div>                           
                                     </div>    
                                 </div>
                             </div>
