@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-
+import "./carousle.css";
 const Carousel=()=>{
     return(
         <>
@@ -14,7 +14,7 @@ const Carousel=()=>{
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <div className="row mx-auto  box2  rounded-3 text-center " >
+                                <div className="row mx-auto  box2   rounded-3 text-center " >
                                       
                                     <div className=" row mx-auto  image1 rounded-3 ">
                                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

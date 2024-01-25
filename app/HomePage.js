@@ -1,5 +1,4 @@
 "use client";
-import "./home_page.css";
 import { useState, useEffect } from "react";
 
 const HomePage = () => {

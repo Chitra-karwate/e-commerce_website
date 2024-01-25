@@ -1,8 +1,8 @@
 .box{
-    width:1500px;
+    width:1600px;
 }
 .box2{
-    width:1500px;
+    width:1600px;
     height:540px;
 }
 .box3{
@@ -11,8 +11,7 @@
 }
 .box4{
     width: 608px;
-    color: var(--Logo---Light, #FBE9A9);
-
+    color:  #FBE9A9;
     font-family: Inika;
     font-size: 68px;
     font-weight: 700;
@@ -22,7 +21,7 @@
 }
 .box5{
     width: 384px;
-    color: var(--Logo---Light, #FBE9A9);
+    color:  #FBE9A9;
     font-family: Inika;
     font-size: 28px;
     font-style: normal;
